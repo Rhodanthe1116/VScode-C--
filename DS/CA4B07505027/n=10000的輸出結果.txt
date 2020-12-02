@@ -1,0 +1,190 @@
+附上在n = 100000的時候的情況
+滿平均的
+
+......Testing HashTableChained for String......
+----------------
+HashTableChained
+----------------
+----------------
+Is it empty? 0
+The number of bucekt: 101
+The number of entry: 100
+The number of collisions: 37
+Length of longest bucket: 4
+
+
+Testing find() function......
+Find xxxxx...? 1
+Find AAAAA...? 0
+
+Testing remove() function......
+Find xxxxx...? 1
+xxxxx is be removed
+Find xxxxx...? 0
+
+Testing makeEmpty() function......
+----------------
+HashTableChained
+----------------
+----------------
+Is it empty? 1
+The number of bucekt: 101
+The number of entry: 0
+The number of collisions: 0
+Length of longest bucket: 0
+
+......Testing HashTableChained for String......
+----------------
+HashTableChained
+----------------
+----------------
+Is it empty? 0
+The number of bucekt: 133337
+The number of entry: 100000
+The number of collisions: 29671
+Length of longest bucket: 7
+
+
+Testing find() function......
+Find xxxxx...? 1
+Find AAAAA...? 0
+
+Testing remove() function......
+Find xxxxx...? 1
+xxxxx is be removed
+Find xxxxx...? 0
+
+Testing makeEmpty() function......
+----------------
+HashTableChained
+----------------
+----------------
+Is it empty? 1
+The number of bucekt: 133337
+The number of entry: 0
+The number of collisions: 0
+Length of longest bucket: 0
+
+......Testing HashTableChained for Double......
+----------------
+HashTableChained
+----------------
+----------------
+Is it empty? 0
+The number of bucekt: 101
+The number of entry: 100
+The number of collisions: 32
+Length of longest bucket: 3
+
+Testing find() function......
+Find xxxxx...? 1
+Find AAAAA...? 0
+
+Testing remove() function......
+Find xxxxx...? 1
+xxxxx is be removed
+Find xxxxx...? 0
+
+Testing makeEmpty() function......
+----------------
+HashTableChained
+----------------
+----------------
+Is it empty? 1
+The number of bucekt: 101
+The number of entry: 0
+The number of collisions: 0
+Length of longest bucket: 0
+
+......Testing HashTableChained for Double......
+----------------
+HashTableChained
+----------------
+----------------
+Is it empty? 0
+The number of bucekt: 133337
+The number of entry: 100000
+The number of collisions: 72176
+Length of longest bucket: 18
+
+Testing find() function......
+Find xxxxx...? 1
+Find AAAAA...? 0
+
+Testing remove() function......
+Find xxxxx...? 1
+xxxxx is be removed
+Find xxxxx...? 0
+
+Testing makeEmpty() function......
+----------------
+HashTableChained
+----------------
+----------------
+Is it empty? 1
+The number of bucekt: 133337
+The number of entry: 0
+The number of collisions: 0
+Length of longest bucket: 0
+
+......Testing HashTableChained for CheckerBoard......
+----------------
+HashTableChained
+----------------
+----------------
+Is it empty? 0
+The number of bucekt: 101
+The number of entry: 100
+The number of collisions: 40
+Length of longest bucket: 4
+
+Testing find() function......
+Find all zero board that exists? 1
+Find another board that does not exist...? 0
+
+Testing remove() function......
+Find all zero board that exists...? 1
+all zero board is be removed
+Find all zero board that does not exist...? 0
+
+Testing makeEmpty() function......
+----------------
+HashTableChained
+----------------
+----------------
+Is it empty? 1
+The number of bucekt: 101
+The number of entry: 0
+The number of collisions: 0
+Length of longest bucket: 0
+
+......Testing HashTableChained for CheckerBoard......
+----------------
+HashTableChained
+----------------
+----------------
+Is it empty? 0
+The number of bucekt: 133337
+The number of entry: 100000
+The number of collisions: 29697
+Length of longest bucket: 7
+
+Testing find() function......
+Find all zero board that exists? 1
+Find another board that does not exist...? 0
+
+Testing remove() function......
+Find all zero board that exists...? 1
+all zero board is be removed
+Find all zero board that does not exist...? 0
+
+Testing makeEmpty() function......
+----------------
+HashTableChained
+----------------
+----------------
+Is it empty? 1
+The number of bucekt: 133337
+The number of entry: 0
+The number of collisions: 0
+Length of longest bucket: 0

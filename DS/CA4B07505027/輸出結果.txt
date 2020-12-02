@@ -1,0 +1,1021 @@
+數據太多了所以沒有截圖，直接複製文字。
+以下測試結果分別為：
+
+String 預設建構子 大小100
+String 自訂建構子 大小30
+Double 預設建構子 大小100
+Double 自訂建構子 大小30
+CheckerBoard 預設建構子 大小100
+CheckerBoard 自訂建構子 大小30
+
+並皆包含find(), remove(), isEmpty(), makeEmpty()
+
+collisions皆在期望之內，且平均分布。
+
+
+......Testing HashTableChained for String......
+----------------
+HashTableChained
+----------------
+bucket 0: 
+bucket 1: "zfnfs": 26459, "vojim": 18778, "oxopc": 5656,
+bucket 2: "gvlji": 1304, 
+bucket 3:
+bucket 4:
+bucket 5:
+bucket 6: "wpcuc": 25066, "kquya": 29016,
+bucket 7: 
+bucket 8: "usjoq": 13059, "exacq": 926, 
+bucket 9:
+bucket 10: "eymqy": 18619, "capsu": 19718, "knkje": 25850, "rwogh": 27891, 
+bucket 11: "aoiop": 3551,
+bucket 12: "oumjm": 19892, "vlavs": 22195, "nulxk": 25829, 
+bucket 13: "vcapg": 27822,
+bucket 14: "zqrvf": 28224, "szjar": 19435, "srnsh": 8151, 
+bucket 15: "xfnqm": 28266,
+bucket 16: "jqtld": 14872,
+bucket 17: "byuyi": 13251,
+bucket 18: "ttzzv": 19789, "xamlx": 23227, 
+bucket 19: "inwwk": 20385,
+bucket 20:
+bucket 21: "mdlvi": 15287, 
+bucket 22: "ycjbo": 6230, 
+bucket 23:
+bucket 24:
+bucket 25: "izlli": 19209, 
+bucket 26: "ukjmq": 28806,
+bucket 27: "jngeb": 8798,
+bucket 28: "okpdy": 484,
+bucket 29: "qlqse": 19114, "itely": 12012, 
+bucket 30:
+bucket 31:
+bucket 32: "tflli": 4467, "epzpd": 12745,
+bucket 33: 
+bucket 34:
+bucket 35: "yyutn": 4072,
+bucket 36:
+bucket 37: 
+bucket 38:
+bucket 39:
+bucket 40:
+bucket 41: "bdyrv": 13361,
+bucket 42: "mvfio": 27754,
+bucket 43: 
+bucket 44: "ocpze": 17915, "ygnke": 5659, "wziae": 14397, 
+bucket 45:
+bucket 46:
+bucket 47: "ognog": 30490,
+bucket 48:
+bucket 49: "cxfit": 15942, "ksfxe": 12423, 
+bucket 50: "kghqa": 26459, 
+bucket 51:
+bucket 52: "bgicg": 10161,
+bucket 53:
+bucket 54: 
+bucket 55: "aqzmn": 18158,
+bucket 56: "biefg": 16652, "kgxxr": 10134, 
+bucket 57:
+bucket 58: "wwels": 13163, "gargl": 3529,
+bucket 59: "whdqt": 837,
+bucket 60:
+bucket 61: "qejxv": 1385, "wjykq": 22858, "gyjqt": 9931, 
+bucket 62: "obicb": 345,
+bucket 63: "vtymg": 19618,
+bucket 64:
+bucket 65: "fcjxf": 17729, "swhum": 18764, "qpsbq": 8826, 
+bucket 66: "zrusy": 13733, "vvtgg": 2602, "uuhoi": 9975, 
+bucket 67: "vlbnj": 614, "twgma": 27539,
+bucket 68: "xnroi": 24085,
+bucket 69: 
+bucket 70:
+bucket 71: "zmbin": 6161, 
+bucket 72:
+bucket 73: "pnzka": 25438,
+bucket 74: 
+bucket 75: "ubqug": 26058,
+bucket 76: "bvgrx": 19136, "zeuux": 8413,
+bucket 77: 
+bucket 78: 
+bucket 79: "fnczq": 5871, "kevsl": 8198, 
+bucket 80: 
+bucket 81: "znwsi": 9891, "evoon": 27320,
+bucket 82: 
+bucket 83: "zjfcx": 31798, "owhvq": 9216, "toiqf": 14611,
+bucket 84: "pazaj": 11918, "rurmw": 32256, 
+bucket 85: "eyjya": 17432,
+bucket 86: "iaxel": 72,
+bucket 87: "axngc": 12522, "jvdyx": 101, "puqzx": 6928, 
+bucket 88: 
+bucket 89: 
+bucket 90: 
+bucket 91: "baffc": 27432, "ugmlv": 23896, "qylio": 4890,
+bucket 92: "natdt": 16077,
+bucket 93:
+bucket 94: "hxjtc": 9562, "qxqkv": 27850, 
+bucket 95: "xfrba": 31180, "pphmo": 19316,
+bucket 96: "uhbcs": 18875,
+bucket 97: "xomyy": 21413, "zkqpx": 3100, 
+bucket 98: "hzefj": 437,
+bucket 99: "tutrv": 11884,
+bucket 100: "yqhhs": 23906,
+----------------
+Is it empty? 0
+The number of bucekt: 101
+The number of entry: 100
+The number of collisions: 39
+Length of longest bucket: 4
+
+
+Testing find() function......
+Find xxxxx...? 1
+Find AAAAA...? 0
+
+Testing remove() function......
+Find xxxxx...? 1
+xxxxx is be removed
+Find xxxxx...? 0
+
+Testing makeEmpty() function......
+----------------
+HashTableChained
+----------------
+bucket 0:
+bucket 1:
+bucket 2:
+bucket 3:
+bucket 4:
+bucket 5:
+bucket 6:
+bucket 7: 
+bucket 8:
+bucket 9:
+bucket 10:
+bucket 11:
+bucket 12: 
+bucket 13:
+bucket 14:
+bucket 15:
+bucket 16:
+bucket 17:
+bucket 18:
+bucket 19:
+bucket 20:
+bucket 21: 
+bucket 22: 
+bucket 23:
+bucket 24:
+bucket 25:
+bucket 26:
+bucket 27:
+bucket 28:
+bucket 29:
+bucket 30: 
+bucket 31:
+bucket 32:
+bucket 33:
+bucket 34:
+bucket 35: 
+bucket 36:
+bucket 37:
+bucket 38:
+bucket 39:
+bucket 40:
+bucket 41:
+bucket 42: 
+bucket 43:
+bucket 44:
+bucket 45:
+bucket 46:
+bucket 47:
+bucket 48: 
+bucket 49:
+bucket 50:
+bucket 51:
+bucket 52:
+bucket 53:
+bucket 54:
+bucket 55:
+bucket 56: 
+bucket 57:
+bucket 58:
+bucket 59:
+bucket 60:
+bucket 61:
+bucket 62: 
+bucket 63:
+bucket 64:
+bucket 65:
+bucket 66:
+bucket 67:
+bucket 68:
+bucket 69:
+bucket 70:
+bucket 71: 
+bucket 72:
+bucket 73:
+bucket 74:
+bucket 75:
+bucket 76: 
+bucket 77: 
+bucket 78:
+bucket 79:
+bucket 80:
+bucket 81:
+bucket 82:
+bucket 83:
+bucket 84:
+bucket 85: 
+bucket 86:
+bucket 87:
+bucket 88:
+bucket 89:
+bucket 90:
+bucket 91: 
+bucket 92:
+bucket 93:
+bucket 94:
+bucket 95:
+bucket 96:
+bucket 97:
+bucket 98:
+bucket 99:
+bucket 100:
+----------------
+Is it empty? 1
+The number of bucekt: 101
+The number of entry: 0
+The number of collisions: 0
+Length of longest bucket: 0
+
+......Testing HashTableChained for String......
+----------------
+bucket 31:
+bucket 32:
+bucket 33:
+bucket 34:
+bucket 35:
+bucket 36: "epftv": 23690,
+bucket 37: "njdvl": 25422,
+bucket 38:
+bucket 39: "zweny": 28026,
+bucket 40:
+----------------
+Is it empty? 0
+The number of bucekt: 41
+The number of entry: 30
+The number of collisions: 7
+Length of longest bucket: 3
+
+
+Testing find() function......
+Find xxxxx...? 1
+Find AAAAA...? 0
+
+Testing remove() function......
+Find xxxxx...? 1
+xxxxx is be removed
+Find xxxxx...? 0
+
+Testing makeEmpty() function......
+----------------
+HashTableChained
+----------------
+bucket 0: 
+bucket 1: 
+bucket 2: 
+bucket 3: 
+bucket 4: 
+bucket 5: 
+bucket 6: 
+bucket 7: 
+bucket 8: 
+bucket 9: 
+bucket 10: 
+bucket 11: 
+bucket 12: 
+bucket 13: 
+bucket 14: 
+bucket 15: 
+bucket 16: 
+bucket 17:
+bucket 18:
+bucket 19: 
+bucket 20: 
+bucket 21: 
+bucket 22: 
+bucket 23: 
+bucket 24:
+bucket 25: 
+bucket 26:
+bucket 27:
+bucket 28:
+bucket 29:
+bucket 30:
+bucket 31:
+bucket 32:
+bucket 33: 
+bucket 34: 
+bucket 35: 
+bucket 36: 
+bucket 37: 
+bucket 38:
+bucket 39:
+bucket 40:
+----------------
+Is it empty? 1
+The number of bucekt: 41
+The number of entry: 0
+The number of collisions: 0
+Length of longest bucket: 0
+
+......Testing HashTableChained for Double......
+----------------
+HashTableChained
+----------------
+bucket 0: 
+bucket 1:
+bucket 2: "0.168188": 32558,
+bucket 3: "0.956816": 25030, 
+bucket 4: 
+bucket 5: "0.899106": 18653, 
+bucket 6: "0.511155": 813, "0.992065": 7360, "0.0682394": 19488, "0.55269": 5008,
+bucket 7: "0.294778": 28749, 
+bucket 8: "0.475814": 17427,
+bucket 9:
+bucket 10: "0.140202": 27770,
+bucket 11:
+bucket 12: "0.217811": 12057, 
+bucket 13: "0.184912": 8939,
+bucket 14: "0.583117": 7505, "0.444563": 14349,
+bucket 15: "0.50145": 5890, "0.374248": 2416,
+bucket 16: 
+bucket 17:
+bucket 18: "0.696188": 23350, "0.815912": 6016,
+bucket 19: "0.809412": 14458, "0.378246": 27226, 
+bucket 20: "0.753716": 32479, "0.73397": 28037, "0.614246": 21162, 
+bucket 21: "0.408399": 18610, "0.924802": 24825, "0.136052": 3847, 
+bucket 22: 
+bucket 23: "0.173559": 30318, "0.530808": 2056, 
+bucket 24: 
+bucket 25: 
+bucket 26: 
+bucket 27: "0.166356": 6789, 
+bucket 28: 
+bucket 29: 
+bucket 30: "0.213111": 32136, 
+bucket 31: "0.374828": 12361, 
+bucket 32: "0.383953": 20029, "0.71395": 13633, "0.33726": 23136, "0.753807": 26945, "0.58095": 32330, "0.169347": 19309, 
+bucket 33: "0.856685": 15950, 
+bucket 34: 
+bucket 35: "0.708731": 18734,
+bucket 36: 
+bucket 37: "0.259896": 4600, "0.681265": 11278, 
+bucket 38: "0.144383": 15532, 
+bucket 39: "0.660726": 20288,
+bucket 40: "0.736473": 22500, "0.60509": 6286, 
+bucket 41: "0.75869": 4735, 
+bucket 42: 
+bucket 43:
+bucket 44: "0.0942412": 23702, "0.433332": 16858,
+bucket 45: "0.493851": 31550,
+bucket 46: "0.98294": 23402, "0.841365": 6739, 
+bucket 47: "0.945341": 17193, "0.153966": 1501, "0.533433": 6139,
+bucket 48: "0.402966": 23372,
+bucket 49: "0.372112": 9108, 
+bucket 50:
+bucket 51: "0.44084": 4445, 
+bucket 52: "0.0763878": 7622, 
+bucket 53: "0.188604": 17946, 
+bucket 54: "0.706137": 28506, 
+bucket 55: "0.117924": 3037,
+bucket 56: 
+bucket 57: "0.385937": 28350,
+bucket 58: "0.719962": 21382, "0.465316": 3348, 
+bucket 59: "0.669271": 23963, 
+bucket 60: "0.106601": 25664, "0.541887": 12103,
+bucket 61:
+bucket 62: "0.0275887": 20731,
+bucket 63: "0.95407": 20994,
+bucket 64: "0.44673": 14714, 
+bucket 65: "0.483169": 6829, 
+bucket 66: "0.865047": 10659,
+bucket 67:
+bucket 68:
+bucket 69: "0.449812": 28901, 
+bucket 70: 
+bucket 71: 
+bucket 72: "0.946837": 20706,
+bucket 73: "0.990783": 29106, "0.232643": 29174, 
+bucket 74: 
+bucket 75: "0.882382": 24480, "0.735649": 8234, "0.0340892": 23352,
+bucket 76: "0.61214": 1162,
+bucket 77:
+bucket 78:
+bucket 79: 
+bucket 80: 
+bucket 81: "0.9523": 4688,
+bucket 82: "0.0211798": 25628, "0.764092": 19922, "0.945616": 14628, 
+bucket 83: "0.131046": 4511, 
+bucket 84: "0.540147": 25188, "0.903165": 9075, 
+bucket 85: "0.657613": 18880, 
+bucket 86: "0.911222": 29900, 
+bucket 87:
+bucket 88: 
+bucket 89: "0.623554": 1648,
+bucket 90: "0.709799": 6742,
+bucket 91: "0.200629": 26488, "0.729667": 18518, 
+bucket 92: 
+bucket 93: "0.35667": 8085, 
+bucket 94: "0.806909": 16419, 
+bucket 95: "0.43675": 1743, "0.979949": 5642, 
+bucket 96: "0.277596": 28736, 
+bucket 97: "0.0735496": 19206, 
+bucket 98: 
+bucket 99:
+bucket 100: "0.891964": 4098, 
+----------------
+Is it empty? 0
+The number of bucekt: 101
+The number of entry: 100
+The number of collisions: 33
+Length of longest bucket: 6
+
+Testing find() function......
+Find xxxxx...? 1
+Find AAAAA...? 0
+
+Testing remove() function......
+Find xxxxx...? 1
+xxxxx is be removed
+Find xxxxx...? 0
+
+Testing makeEmpty() function......
+----------------
+HashTableChained
+----------------
+bucket 0:
+bucket 1: 
+bucket 2:
+bucket 3: 
+bucket 4:
+bucket 5:
+bucket 6: 
+bucket 7: 
+bucket 8: 
+bucket 9:
+bucket 10: 
+bucket 11:
+bucket 12:
+bucket 13: 
+bucket 14: 
+bucket 15: 
+bucket 16: 
+bucket 17:
+bucket 18:
+bucket 19: 
+bucket 20: 
+bucket 21: 
+bucket 22: 
+bucket 23: 
+bucket 24:
+bucket 25: 
+bucket 26:
+bucket 27: 
+bucket 28:
+bucket 29: 
+bucket 30: 
+bucket 31:
+bucket 32: 
+bucket 33: 
+bucket 34: 
+bucket 35:
+bucket 36:
+bucket 37: 
+bucket 38: 
+bucket 39:
+bucket 40: 
+bucket 41:
+bucket 42: 
+bucket 43:
+bucket 44:
+bucket 45: 
+bucket 46: 
+bucket 47: 
+bucket 48: 
+bucket 49:
+bucket 50:
+bucket 51:
+bucket 52:
+bucket 53:
+bucket 54:
+bucket 55: 
+bucket 56: 
+bucket 57: 
+bucket 58: 
+bucket 59: 
+bucket 60:
+bucket 61: 
+bucket 62:
+bucket 63: 
+bucket 64:
+bucket 65:
+bucket 66:
+bucket 67:
+bucket 68:
+bucket 69: 
+bucket 70:
+bucket 71:
+bucket 72: 
+bucket 73:
+bucket 74: 
+bucket 75: 
+bucket 76:
+bucket 77: 
+bucket 78:
+bucket 79: 
+bucket 80: 
+bucket 81:
+bucket 82:
+bucket 83: 
+bucket 84: 
+bucket 85:
+bucket 86: 
+bucket 87:
+bucket 88: 
+bucket 89:
+bucket 90:
+bucket 91: 
+bucket 92: 
+bucket 93: 
+bucket 94:
+bucket 95:
+bucket 96: 
+bucket 97: 
+bucket 98: 
+bucket 99:
+bucket 100: 
+----------------
+Is it empty? 1
+The number of bucekt: 101
+The number of entry: 0
+The number of collisions: 0
+Length of longest bucket: 0
+
+......Testing HashTableChained for Double......
+----------------
+HashTableChained
+----------------
+bucket 0:
+bucket 1: "0.506394": 18212, 
+bucket 2: "0.125462": 24433, 
+bucket 3: "0.362041": 25871, 
+bucket 4: "0.973876": 28053, 
+bucket 5: "0.202612": 19660, 
+bucket 6: "0.793817": 24463, 
+bucket 7:
+bucket 8: "0.607654": 15589, 
+bucket 9: "0.317148": 20168, 
+bucket 10: "0.917295": 9294, 
+bucket 11: 
+bucket 12:
+bucket 13: "0.592273": 8951,
+bucket 14: 
+bucket 15: "0.452834": 844, 
+bucket 16: "0.0735801": 17851, 
+bucket 17: "0.580554": 29292, 
+bucket 18: 
+bucket 19: "0.153386": 12205, "0.284341": 26811, "0.392804": 11832,
+bucket 20: 
+bucket 21: "0.533677": 29736,
+bucket 22: 
+bucket 23:
+bucket 24: 
+bucket 25: "0.710196": 7797,
+bucket 26: 
+bucket 27: "0.223518": 30524, 
+bucket 28: 
+bucket 29:
+bucket 30:
+bucket 31: "0.0628681": 31632, 
+bucket 32: 
+bucket 33: "0.409894": 1622,
+bucket 34: 
+bucket 35: "0.333262": 8902,
+bucket 36: "0.0432752": 12784, 
+bucket 37: "0.0664083": 25921, 
+bucket 38: "0.322703": 20773, "0.283944": 4726, 
+bucket 39: "0.462294": 10770, 
+bucket 40: "0.507187": 13171, "0.385388": 22276, "0.987335": 23324, 
+----------------
+Is it empty? 0
+The number of bucekt: 41
+The number of entry: 30
+The number of collisions: 5
+Length of longest bucket: 3
+
+Testing find() function......
+Find xxxxx...? 1
+Find AAAAA...? 0
+
+Testing remove() function......
+Find xxxxx...? 1
+xxxxx is be removed
+Find xxxxx...? 0
+
+Testing makeEmpty() function......
+----------------
+HashTableChained
+----------------
+bucket 0: 
+bucket 1:
+bucket 2: 
+bucket 3: 
+bucket 4:
+bucket 5: 
+bucket 6: 
+bucket 7:
+bucket 8:
+bucket 9: 
+bucket 10: 
+bucket 11: 
+bucket 12: 
+bucket 13: 
+bucket 14: 
+bucket 15: 
+bucket 16:
+bucket 17: 
+bucket 18:
+bucket 19:
+bucket 20: 
+bucket 21: 
+bucket 22: 
+bucket 23: 
+bucket 24:
+bucket 25: 
+bucket 26:
+bucket 27:
+bucket 28: 
+bucket 29: 
+bucket 30: 
+bucket 31: 
+bucket 32: 
+bucket 33: 
+bucket 34: 
+bucket 35:
+bucket 36: 
+bucket 37: 
+bucket 38: 
+bucket 39: 
+bucket 40: 
+----------------
+Is it empty? 1
+The number of bucekt: 41
+The number of entry: 0
+The number of collisions: 0
+Length of longest bucket: 0
+
+......Testing HashTableChained for CheckerBoard......
+----------------
+HashTableChained
+----------------
+bucket 0: "47189422": 8, "1671132769": 59,
+bucket 1: "1433532593": 2, "1738259491": 70, 
+bucket 2: "989986246": 1, "1617387641": 55, "1998724049": 78, 
+bucket 3:
+bucket 4: "-30475138": 48, "259103182": 73, 
+bucket 5: "-1840661678": 21, "898806681": 64,
+bucket 6: 
+bucket 7:
+bucket 8: "-955782602": 46,
+bucket 9: "-208477139": 18, "482872323": 20, "-324069821": 37, 
+bucket 10: "-1492123914": 19, "-1490722640": 23, 
+bucket 11: "-601923146": 53, 
+bucket 12:
+bucket 13: "-74114823": 33, "-262282469": 51, 
+bucket 14: "-1554555654": 49, 
+bucket 15: "391519849": 4, 
+bucket 16: "459016029": 25, 
+bucket 17: 
+bucket 18: "-1101698221": 90,
+bucket 19: "-455675861": 52, 
+bucket 20: "194131615": 75, "-1132466560": 81, 
+bucket 21: "-815628248": 95, 
+bucket 22: "-700115761": 26, "-411272123": 27, "-2054361939": 45, "-527726032": 69, "176939700": 77,
+bucket 23: "1360561630": 97, 
+bucket 24: 
+bucket 25: 
+bucket 26: "-36570409": 47, 
+bucket 27: "385666204": 36, 
+bucket 28: "1335097414": 94,
+bucket 29: "1922597245": 42, 
+bucket 30: 
+bucket 31: "-535321443": 92, 
+bucket 32: "-101299194": 5,
+bucket 33: "-1355828780": 31, 
+bucket 34: 
+bucket 35:
+bucket 36:
+bucket 37: "-1219938637": 0, "-230829174": 83, 
+bucket 38: 
+bucket 39: 
+bucket 40: "283740249": 98,
+bucket 41: "-1443289940": 17, 
+bucket 42: 
+bucket 43:
+bucket 44: "-2016674720": 41, "-1223673523": 74, "-995653196": 80,
+bucket 45: "1185774183": 14, 
+bucket 46: "-423517185": 6, "-1095557146": 44, 
+bucket 47: "264727713": 85, 
+bucket 48: "-1655275413": 22, 
+bucket 49: 
+bucket 50: "1771366330": 96, 
+bucket 51: "242867075": 3, "-616796446": 12, "-1096150425": 35, 
+bucket 52: 
+bucket 53: "1499185675": 86, 
+bucket 54: 
+bucket 55:
+bucket 56: "8521123": 50, "1009343859": 56, 
+bucket 57: "1603018931": 57, "-582424435": 62, 
+bucket 58: "-68459373": 38, 
+bucket 59: "790353844": 93,
+bucket 60: 
+bucket 61: 
+bucket 62: "-1506438191": 11, "2094327780": 13, "255479764": 87,
+bucket 63: "-4570616": 34, "1846742744": 88, 
+bucket 64: 
+bucket 65:
+bucket 66: "-702290436": 40, "-1162312510": 91, 
+bucket 67: 
+bucket 68: "297448502": 67,
+bucket 69: "1773760352": 60, 
+bucket 70: "-1920635462": 30,
+bucket 71: "166710974": 24, 
+bucket 72: 
+bucket 73:
+bucket 74: 
+bucket 75:
+bucket 76: "-1516396300": 39, 
+bucket 77: "-1071815006": 32, "1846397136": 61, 
+bucket 78: "-1299143787": 29, "-248249392": 65, 
+bucket 79: 
+bucket 80: "-127116660": 54, "1326586600": 71, 
+bucket 81:
+bucket 82:
+bucket 83:
+bucket 84:
+bucket 85: "1908238838": 43, "1527165939": 58, "-796896145": 68, 
+bucket 86: "2018680925": 79, 
+bucket 87: "-1914753744": 16, "-1053432208": 28, 
+bucket 88: 
+bucket 89: "1119818399": 72, "1244325543": 99,
+bucket 90: "1373129026": 82, 
+bucket 91: 
+bucket 92:
+bucket 93: "1042102943": 10, 
+bucket 94: "-1838757715": 63, "107404302": 66, 
+bucket 95: 
+bucket 96: "-667805733": 84,
+bucket 97: "-526026681": 15, 
+bucket 98: "1093264195": 7, 
+bucket 99: "-21313119": 9, "-1720238260": 76, "735347163": 89, 
+bucket 100: 
+----------------
+Is it empty? 0
+The number of bucekt: 101
+The number of entry: 100
+The number of collisions: 37
+Length of longest bucket: 5
+
+Testing find() function......
+Find all zero board that exists? 1
+Find another board that does not exist...? 0
+
+Testing remove() function......
+Find all zero board that exists...? 1
+all zero board is be removed
+Find all zero board that does not exist...? 0
+
+Testing makeEmpty() function......
+----------------
+HashTableChained
+----------------
+bucket 0:
+bucket 1:
+bucket 2: 
+bucket 3: 
+bucket 4: 
+bucket 5:
+bucket 6: 
+bucket 7: 
+bucket 8: 
+bucket 9:
+bucket 10:
+bucket 11: 
+bucket 12: 
+bucket 13: 
+bucket 14: 
+bucket 15:
+bucket 16: 
+bucket 17: 
+bucket 18: 
+bucket 19:
+bucket 20: 
+bucket 21:
+bucket 22: 
+bucket 23:
+bucket 24: 
+bucket 25:
+bucket 26:
+bucket 27:
+bucket 28:
+bucket 29:
+bucket 30:
+bucket 31:
+bucket 32: 
+bucket 33:
+bucket 34: 
+bucket 35: 
+bucket 36: 
+bucket 37: 
+bucket 38: 
+bucket 39: 
+bucket 40:
+bucket 41:
+bucket 42:
+bucket 43:
+bucket 44:
+bucket 45:
+bucket 46: 
+bucket 47:
+bucket 48:
+bucket 49:
+bucket 50:
+bucket 51:
+bucket 52:
+bucket 53:
+bucket 54: 
+bucket 55:
+bucket 56:
+bucket 57:
+bucket 58: 
+bucket 59:
+bucket 60:
+bucket 61:
+bucket 62:
+bucket 63:
+bucket 64:
+bucket 65:
+bucket 66:
+bucket 67: 
+bucket 68:
+bucket 69:
+bucket 70:
+bucket 71:
+bucket 72:
+bucket 73:
+bucket 74:
+bucket 75:
+bucket 76:
+bucket 77: 
+bucket 78:
+bucket 79:
+bucket 80:
+bucket 81:
+bucket 82:
+bucket 83:
+bucket 84:
+bucket 85:
+bucket 86:
+bucket 87: 
+bucket 88:
+bucket 89:
+bucket 90:
+bucket 91:
+bucket 92:
+bucket 93:
+bucket 94:
+bucket 95:
+bucket 96:
+bucket 97: 
+bucket 98:
+bucket 99:
+bucket 100:
+----------------
+Is it empty? 1
+The number of bucekt: 101
+The number of entry: 0
+The number of collisions: 0
+Length of longest bucket: 0
+
+......Testing HashTableChained for CheckerBoard......
+----------------
+HashTableChained
+----------------
+bucket 0: 
+bucket 1: "-1611769943": 21,
+bucket 2: "322831870": 19,
+bucket 3: "-339071356": 0,
+bucket 4: "-855159390": 12,
+bucket 5: "-713060648": 3,
+bucket 6: "-731741110": 5, "726926685": 15, 
+bucket 7:
+bucket 8: "60432409": 26,
+bucket 9:
+bucket 10:
+bucket 11: "-1475174025": 8, "-101289035": 16, "-1020187718": 25,
+bucket 12: "-1644384183": 10, "1483892266": 23, "647875739": 27, 
+bucket 13: "-1112256213": 28, 
+bucket 14: "1351714459": 4,
+bucket 15:
+bucket 16: "106767993": 13,
+bucket 17:
+bucket 18:
+bucket 19: "1021914646": 7, 
+bucket 20: "697266069": 29,
+bucket 21: 
+bucket 22: 
+bucket 23: 
+bucket 24: "509866061": 1, "2094100690": 18, 
+bucket 25: 
+bucket 26:
+bucket 27: "-2052325916": 17,
+bucket 28: "-192414873": 14, "-1296411254": 22, 
+bucket 29:
+bucket 30: "-1028023780": 9,
+bucket 31:
+bucket 32: "1176683632": 6, 
+bucket 33: "-1013174813": 2, 
+bucket 34: 
+bucket 35: "-1927285067": 11, 
+bucket 36: "-1360514434": 24,
+bucket 37: 
+bucket 38: 
+bucket 39: 
+bucket 40: "-765134332": 20, 
+----------------
+Is it empty? 0
+The number of bucekt: 41
+The number of entry: 30
+The number of collisions: 7
+Length of longest bucket: 3
+
+Testing find() function......
+Find all zero board that exists? 1
+Find another board that does not exist...? 0
+
+Testing remove() function......
+Find all zero board that exists...? 1
+all zero board is be removed
+Find all zero board that does not exist...? 0
+
+Testing makeEmpty() function......
+----------------
+HashTableChained
+----------------
+bucket 0: 
+bucket 1:
+bucket 2:
+bucket 3:
+bucket 4:
+bucket 5:
+bucket 6:
+bucket 7:
+bucket 8:
+bucket 9:
+bucket 10:
+bucket 11:
+bucket 12:
+bucket 13:
+bucket 14:
+bucket 15:
+bucket 16:
+bucket 17:
+bucket 18:
+bucket 19:
+bucket 20:
+bucket 21:
+bucket 22:
+bucket 23:
+bucket 24:
+bucket 25:
+bucket 26:
+bucket 27:
+bucket 28:
+bucket 29:
+bucket 30:
+bucket 31:
+bucket 32:
+bucket 33:
+bucket 34:
+bucket 35:
+bucket 36:
+bucket 37:
+bucket 38:
+bucket 39:
+bucket 40:
+----------------
+Is it empty? 1
+The number of bucekt: 41
+The number of entry: 0
+The number of collisions: 0
+Length of longest bucket: 0

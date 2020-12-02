@@ -1,0 +1,6 @@
+module T-FlipFlop(clk, T, clr, Q);
+    input clk, T, clr;
+    output Q;
+    
+    always@(posedge clk or negedge clr)
+endmodule
